@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+    /* height: 100vh; */
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    width: 26.75rem;
+}
+.maincontent{
+    flex: 1;
+    overflow: auto;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    height: 6.2rem;
+    background-color: rgb(21,19,19);
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-bottom: 0.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 1.75rem;
+}
+.home_icon{
+    line-height: 2.8rem;
+    opacity: 0.6;
+}
+.home_icon:hover{
+    opacity: 1;
+}
+.home_icon , span{
+    font-size: 1.25rem;
+}
+.home_icon, a{
+    font-size: 1rem;
+    margin-left: 0.8rem;
+}
+.library{
+    position: fixed;
+    height: 100%;
+    background-color: rgb(21,19,19);
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+.library_nav{
+    display:flex;
+    align-content: center;
+}
+.library_nav_option{
+    padding: 0.5rem 1.5rem;
+    margin: 1rem;
+    justify-content: space-between;
+    opacity: 0.6;
+}
+.library_nav_option:hover{
+    opacity: 1;
+}
+.library_nav, a{
+    font-size: 1rem;
+}
+.library_nav,span{
+    font-size: 1.25rem;
+}
+#plus{
+    margin-left: 4.29rem;
+}
+
+.library_box{
+    height: 8.9rem;
+    background-color: #232323;
+    margin: 1rem 0.75rem;
+    border-radius: 1rem;
+}
+.box_content{
+    margin: 1rem 1.75rem;
+    padding: 0.1rem;
+}
+.first_paragraph{
+    font-size: 1.1rem;
+}
+.second_paragraph{
+    font-size: 0.6;
+}
+.box_content,button{
+    border:none;
+    border-radius: 2rem;
+    padding: 0.25rem 0.5rem;
+    font-weight: 700;
+    height: 2rem;
+}
+.box_content,button:hover{
+    border:none;
+    border-radius: 2rem;
+    padding: 0.25rem 0.5rem;
+    font-weight: 1000;
+    height: 2rem;
+    box-sizing: content-box;
+}
+.nav_header{
+    display: flex;
+    height: 5rem;
+    background-color: rgb(21,19,19);
+    margin-top: 1.1rem;
+    border-radius: 1rem;
+    
+}
+.arro{
+    margin: 1.5rem;
+    opacity: 0.6;
+}
+.arro:hover{
+    opacity: 1;
+}
+.premium{
+    opacity: 0.6;
+}
+.premium:hover{
+    opacity: 1;
+}
+.support{
+    opacity: 0.6;
+}
+.support:hover{
+    opacity: 1;
+}
+.download{
+    opacity: 0.6;
+}
+.download:hover{
+    opacity: 1;
+}
+.abc{
+    font-size: 1.2rem;
+}
+.sign_log_in{
+    margin: 1rem;
+    padding-left: 0.2rem;
+}
+.links{
+    margin: 1.5rem;
+    padding-left: 29rem;
+    font-size: 1rem;
+}
+.sign_up{
+    background-color: rgb(21,19,19);
+    color:white;
+}
+.log_in{
+    margin-left: 1rem;
+    size: 5rem;
+}
+.main_content{
+    
+    margin-top: 6.5rem;
+    background-color: rgb(21,19,19);
+    border-radius: 1rem;
+}
+.nav_header{
+    position: fixed;
+    width: 70.5%;
+    z-index: 1rem;
+}
+.header_first{
+    margin: 0rem 1.59rem;
+    font-size: 1rem;
+}
+.header_first:hover{
+    text-decoration: underline;
+}
+
+.card_container{
+    background-color:#232323;
+    width:9.4rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    opacity: 0.65;
+}
+.card_container:hover{
+    opacity: 1;
+}
+.card_img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card_titale{
+    font-weight: 600;
+    font-size: 1rem;
+    font:bolder;
+}
+.card_info{
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.music_player{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    background-color:rgb(21,19,19);
+}
+.music_icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.music_icon,span{
+    margin: 0.5rem 0.33rem 0rem 0.33rem;
+    opacity: 0.57;
+}
+.music_icon,span:hover{
+    opacity: 1;
+}
